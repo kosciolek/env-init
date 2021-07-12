@@ -9,8 +9,6 @@ curl https://raw.githubusercontent.com/kosciolek/env-init/master/node/install.sh
 
 ### For React
 
-```
 ```sh
 curl https://raw.githubusercontent.com/kosciolek/env-init/master/web/install.sh | bash -
-```
 ```

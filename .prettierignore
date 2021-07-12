@@ -1,5 +1,3 @@
 .next/
 .history/
 dist/
-next.config.js
-.eslintrc.js

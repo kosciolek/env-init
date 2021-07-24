@@ -11,6 +11,10 @@ module.exports = {
   rules: {
     "import/no-default-export": "error",
     "import/prefer-default-export": "off",
-    "no-underscore-dangle": "off"
+    "no-underscore-dangle": "off",
+           "@typescript-eslint/no-unused-vars": [
+      "error",
+      { varsIgnorePattern: "^_\d+" },
+    ],
   }
 };

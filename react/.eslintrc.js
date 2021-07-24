@@ -27,6 +27,10 @@ module.exports = {
     "import/prefer-default-export": "off",
     "no-underscore-dangle": "off",
     "react/no-unescaped-entities": "off",
+        "@typescript-eslint/no-unused-vars": [
+      "error",
+      { varsIgnorePattern: "^_\d+" },
+    ],
     "import/no-extraneous-dependencies": [
       "error",
       {

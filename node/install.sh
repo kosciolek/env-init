@@ -2,7 +2,7 @@ curl https://raw.githubusercontent.com/kosciolek/env-init/master/node/.eslintrc.
 curl https://raw.githubusercontent.com/kosciolek/env-init/master/.prettierignore -o .prettierignore
 curl https://raw.githubusercontent.com/kosciolek/env-init/master/.eslintignore -o .eslintignore
 
-yarn add -D eslint-config-prettier prettier husky eslint-config-airbnb-typescript eslint eslint-plugin-import @typescript-eslint/parser @typescript-eslint/eslint-plugin jest ts-jest @types/jest eslint-plugin-jest
+yarn add -D eslint-config-prettier prettier husky eslint-config-airbnb-typescript eslint-import-resolver-node eslint eslint-plugin-import @typescript-eslint/parser @typescript-eslint/eslint-plugin jest ts-jest @types/jest eslint-plugin-jest
 
 yarn tsc --init
 echo '{ "extends": ".", "exclude": [] }' > tsconfig.eslint.json
